@@ -170,4 +170,4 @@ LaunchPad is open-source software licensed under the MIT license.
 
 ---
 
-Built with ❤️ by [Ankur Tyagi]
+Built with ❤️ by Ankur Tyagi
