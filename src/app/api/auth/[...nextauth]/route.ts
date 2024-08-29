@@ -11,6 +11,8 @@ import WelcomeEmail from '@/emails/WelcomeEmail'
 import { ClerkProvider } from '@clerk/nextjs'
 import { SupabaseAdapter } from '@next-auth/supabase-adapter'
 
+const resend = new Resend(process.env.RESEND_API_KEY)
+
 export const authOptions: AuthOptions = {
   adapter: PrismaAdapter(prisma) as any,
   providers: [
